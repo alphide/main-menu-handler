@@ -178,8 +178,8 @@ local function hoverOnButton(btn)
 	
 	if playButtonClicked then return end
 	
-	local colourDarken = tweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut), {ImageColor3 = Color3.fromRGB(221, 221, 221)})
-	colourDarken:Play()
+	local colorDarken = tweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut), {ImageColor3 = Color3.fromRGB(221, 221, 221)})
+	colorDarken:Play()
 	playBtn:TweenSize(UDim2.new(0.192, 0, 0.128, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.25, true)
 end
 
@@ -187,8 +187,8 @@ local function hoverOffButton(btn)
 	
 	if playButtonClicked then return end
 	
-	local colourNormal = tweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut), {ImageColor3 = Color3.fromRGB(255, 255, 255)})
-	colourNormal:Play()
+	local colorNormal = tweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut), {ImageColor3 = Color3.fromRGB(255, 255, 255)})
+	colorNormal:Play()
 	playBtn:TweenSize(UDim2.new(0.202, 0, 0.138, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.25, true)
 	
 end
@@ -197,8 +197,8 @@ local function hoverOffButtonSet(btn)
 
 	if settingsBtnClicked then return end
 
-	local colourNormal = tweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut), {ImageColor3 = Color3.fromRGB(255, 255, 255)})
-	colourNormal:Play()
+	local colorNormal = tweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut), {ImageColor3 = Color3.fromRGB(255, 255, 255)})
+	colorNormal:Play()
 	settingsBtn:TweenSize(UDim2.new(0, 277, 0, 98), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.25, true)
 end
 
@@ -207,8 +207,8 @@ local function hoverOnButtonSet(btn)
 	if settingsBtnClicked then return end
 
 	
-	local colourDarken = tweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut), {ImageColor3 = Color3.fromRGB(221, 221, 221)})
-	colourDarken:Play()
+	local colorDarken = tweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut), {ImageColor3 = Color3.fromRGB(221, 221, 221)})
+	colorDarken:Play()
 	settingsBtn:TweenSize(UDim2.new(0, 270, 0, 91), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.25, true)
 
 end
